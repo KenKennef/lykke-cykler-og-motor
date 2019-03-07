@@ -1,4 +1,7 @@
 // (function() {console.log('hello from my repo')})()
-$(document).ready(function() {
-    console.log('hello from my repo, now in jQuery!')
-})
+$(document).load(function() {
+    $('.product > .image > div > a > img')
+    .map(function(img) {
+        $(img).css({'style': 'border: 1px solid black;'});
+    })
+});
