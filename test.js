@@ -1,1 +1,1 @@
-console.log('hello from my repo')
+(function() {console.log('hello from my repo')})()
